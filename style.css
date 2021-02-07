@@ -1,0 +1,297 @@
+ /* General Styling*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: sans-serif;
+  line-height: 1.4;
+  color: black;
+  overflow-x: hidden;
+}
+
+ /* Utility Classes */
+.container {
+  max-width: 1100px;
+  margin: auto;
+  }
+
+.text-primary {
+  color: #333;
+}
+
+.bg-light {
+  background: hsl(218, 28%, 13%)
+}
+
+.bg-dark {
+  background: hsl(218, 28%, 13%);
+  color: #333;
+}
+
+/*Navbar */
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  background: hsl(218, 28%, 13%);
+  color:#fff;
+  padding: 1.5rem 8rem;
+  padding-right: 50px;
+  position: static;
+  top: 0;
+  z-index: 1;
+  border-bottom: #333;
+}
+
+#navbar h2 a{
+  color: #fff;
+  text-decoration: none;
+}
+
+#navbar ul a{
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+#navbar li a{
+  text-decoration: none;
+  color: #fff;
+  padding: 1rem;
+  font-size: 1.3rem;
+  margin: 0 0.5rem;
+  border-radius: 5px;
+  transition:  background-color 0.3s;
+}
+
+#navbar li a:hover {
+  background-color: hsl(218, 28%, 13%);
+}
+
+/* Showcase Area*/
+#showcase {
+  color: #fff;
+  background-color: hsl(218, 28%, 13%);
+}
+
+.showcase-content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+   align-items: center;
+   justify-content: center;
+   position: absolute;
+   top: 81px;
+   left: 0;
+   bottom: 0;
+   right: 0;
+   color: #333;
+   background-color: hsl(218, 28%, 13%);
+}
+
+.showcase-content h1 {
+  font-size: 4rem;
+  margin-bottom: 2rem;
+}
+
+.showcase-content h2 {
+  font-size: 8rem;
+  margin-bottom: 4rem;
+}
+
+.showcase-content .btn {
+  font-family: sans-serif;
+  border: none;
+  padding: 15px 30px;
+  font-size: 20px;
+  outline: none;
+  border-radius: 5px;
+  color: #fff;
+  background: #111111;
+}
+
+.showcase-content .btn:hover {
+  background: #1152cc;
+  color: #fff;
+}
+
+.btn {
+  color: #1152cc;
+  text-decoration: none;
+  padding: 15px 30px;
+  font-size: 20px;
+  border-radius: 5px;
+  border: none;
+  font-weight: bold;
+  outline: auto;
+  font-family: sans-serif;
+
+}
+
+/*features*/
+#features {
+  background: hsl(218, 53%, 9%);
+  color: #fff;
+  padding: 5rem 0;
+  text-align: center;
+  flex: 1;
+  display: block;
+  position: sticky;
+}
+
+
+
+/*terms*/
+#terms {
+  padding: 5rem 0;
+  background-color: hsl(218, 28%, 13%);
+  color: #fff;
+}
+
+#terms .text-primary
+#terms .images {
+  flex: 1;
+}
+
+#terms .images img {
+  display: block;
+  margin-left: auto;
+  width: 75%;
+  border-radius: 40%;
+  margin-top: 60px;
+}
+
+#terms h1 {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 3rem;
+}
+
+#terms p {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+#terms .text-primary {
+  display: flex;
+}
+
+#terms .terms-text {
+  text-align: justify;
+}
+
+
+
+#terms .arrow {
+  border: blue;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+#terms .rirht {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+#terms {
+  background-color: hsl(219, 30%, 18%);
+  color: #fff;
+  padding: 0px;
+  list-style-position: unset;
+  box-sizing: content-box;
+}
+
+#terms .h2 {
+  text-align: left;
+}
+
+
+/*sign-in*/
+#sign-in {
+  padding: 5rem 0;
+}
+
+#sign-in {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 8rem;
+}
+
+#sign-in {
+  background-color: hsl(217, 28%, 15%);
+  color: #fff;
+  text-align: center;
+  position: sticky;
+}
+
+#sign-in .form-box {
+  background: #fff;
+  padding: 3rem;
+  box-shadow: 2px 2px 5px #d1d1d1;
+  border-radius: 10px;
+}
+
+#sign-in .form-group {
+  margin-bottom: 2rem;
+}
+
+#sign-in .form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  width: 80%;
+  margin-left: 10%;
+  font-size: 1.1rem;
+}
+
+#sign-in .form-group input,
+#sign-in .form-group textarea {
+  width: 80%;
+  margin-left: 10%;
+  font-size: 1.3rem;
+  padding: 1rem;
+   border: 0.5px solid #fff;
+   border-radius: 5px; 
+}
+
+#sign-in .form-group textarea {
+  font-family: Arial, sans-serif;
+}
+
+
+
+#sign-in .contact-btn {
+  width: auto;
+  margin-left: 10%;
+  display: inline-block;
+  padding: 1rem 3rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  background: #1345eb;
+  color: #fff;
+  margin-bottom: 2rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+#sign-in .contact-btn:hover {
+  background: #0378ff;
+}
+
+/*footer*/
+#footer {
+  padding: 2.5rem;
+  position: sticky;
+}
+
+#footer p {
+  text-align: center;
+}
+
+
+
+
